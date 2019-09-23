@@ -25,7 +25,7 @@ Linux (Ubuntu):
 ## Notes
 
 - You may need to download and install [NodeJS](https://nodejs.org/en/download/)
-- Spaces in file paths are not allowed, you may need to change the default JavaScript install path
+- Spaces in file paths are not allowed, you may need to change the default NodeJS install path
 - Communication with the simulator is done via stdin/stdout, use stderr for logging
 - Descriptions of all available API methods can be found at [mackorone/mms#mouse-api](https://github.com/mackorone/mms#mouse-api)
 - The example code is a simple left wall following algorithm
