@@ -10,7 +10,7 @@ function readLine() {
     // Taken from https://github.com/JohnEarnest/ok/issues/6
     var line = '';
     while (true) {
-        var buffer = new Buffer(1);
+        var buffer = new Buffer.alloc(1);
         fs.readSync(fd, buffer, 0, 1);
         var c = String.fromCharCode(buffer[0]);
         if (c === '\n') {
